@@ -10,5 +10,5 @@
         "48": "icon48.png"
       }
     },
-    "permissions": ["clipboardWrite"]
+    "permissions": ["clipboardWrite", "activeTab"]
   }

@@ -4,5 +4,14 @@ body {
 }
 
 .symbol {
-    display:inline;
+    display:inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #D9D9D9; /* Button background color */
+    color: #000000; /* Text color */
+    border: 1px solid #46494b; /* Button border color */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s, color 0.3s;
 }
